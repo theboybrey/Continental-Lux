@@ -24,7 +24,7 @@ const HeroSection = (props: Props) => {
         <h2 className="text-7xl text-wrap font-CabinetGrotesk">
           Manage Your Property
         </h2>
-        <p className="text-sm">
+        <p className="text-sm text-gray-500">
           You will have everything nearby; supermarket, buses, <br></br>station,
           the carmen neighborhood and more.
         </p>
@@ -50,7 +50,7 @@ const HeroSection = (props: Props) => {
         src={HomeImg}
         width={840}
         height={650}
-        className="md:-mr-[35.5rem]"
+        className="md:-mr-[34.5rem]"
       />
     </div>
   );
