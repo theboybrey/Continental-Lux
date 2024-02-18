@@ -39,7 +39,7 @@ const Navbar = (props: Props) => {
       className={`${
         isMenuOpen
           ? "flex md:flex-row  items-center md:px-8 h-[80px] navbar rounded-full"
-          : "flex md:flex-row items-center md:justify-between md:px-8 h-[80px] bg-[#fafafa] rounded-full md:mb-2"
+          : "flex md:flex-row items-center md:justify-between md:px-8 h-[80px] bg-[#fafafa] rounded-full md:mb-2 text-nowrap"
       }`}
     >
       {/* Logo */}
