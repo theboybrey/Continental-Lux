@@ -9,6 +9,8 @@ import SwitchThemeButton from "./components/SwitchThemeButton";
 import NewsletterSection from "./components/NewsletterSection";
 import React, { useState } from "react";
 import PropertyListing from "./components/PropertyListing";
+import Advertisement from "./components/Advertisement";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [isDarkTheme, setIsDarkTheme] = useState(
@@ -25,6 +27,8 @@ export default function Home() {
         <EstateBrokerage/>
         <NewsletterSection/>
         <PropertyListing/>
+        <Advertisement/>
+        <Footer/>
       </div>
     </main>
   );
