@@ -11,6 +11,7 @@ import React, { useState } from "react";
 import PropertyListing from "./components/PropertyListing";
 import Advertisement from "./components/Advertisement";
 import Footer from "./components/Footer";
+import PostFooterDevMode from "./components/PostFooterDevMode";
 
 export default function Home() {
   const [isDarkTheme, setIsDarkTheme] = useState(
@@ -19,16 +20,19 @@ export default function Home() {
   );
   return (
     <main className={isDarkTheme ? "dark" : "light"}>
-      <div className='px-6 py-3 md:px-16 md:py-5'>
+      <div className="px-6 py-3 md:px-16 md:py-5">
         <Navbar />
-        <HeroSection/>
-        <RegisteringMethods/>
-        <Projects/>
-        <EstateBrokerage/>
-        <NewsletterSection/>
-        <PropertyListing/>
-        <Advertisement/>
-        <Footer/>
+        <HeroSection />
+        <RegisteringMethods />
+        <Projects />
+        <EstateBrokerage />
+        <NewsletterSection />
+        <PropertyListing />
+        <Advertisement />
+        <Footer />
+
+        {/* Developers Details */}
+        <PostFooterDevMode />
       </div>
     </main>
   );
