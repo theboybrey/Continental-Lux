@@ -25,11 +25,6 @@ body {
   --navbar-background: rgb(var(--navbar-background-rgb));
 }
 
-.navbar{
-  background-color: var(--navbar-background);
-
-}
-
 .dark body {
   background-color: #333;
   color: #fff;
@@ -40,6 +35,9 @@ body {
   color: #333;
 }
 
+.navbar {
+  background-color: var(--navbar-background);
+}
 /* Custom Cabinet Grotesk Font */
 @font-face {
   font-family: CabinetGrotesk;

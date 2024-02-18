@@ -38,8 +38,8 @@ const Navbar = (props: Props) => {
     <div
       className={`${
         isMenuOpen
-          ? "flex md:flex-row  items-center md:px-8 h-[80px] bg-[#fafafa] rounded-full"
-          : "flex md:flex-row items-center md:justify-between md:px-8 h-[80px] bg-[#fafafa] rounded-full"
+          ? "flex md:flex-row  items-center md:px-8 h-[80px] navbar rounded-full"
+          : "flex md:flex-row items-center md:justify-between md:px-8 h-[80px] bg-[#fafafa] rounded-full md:mb-2"
       }`}
     >
       {/* Logo */}
@@ -89,7 +89,7 @@ const Navbar = (props: Props) => {
         className={`${
           isMenuOpen
             ? "flex flex-col z-10 h-screen w-full items-center gap-4 md:flex-row md:justify-center md:absolute md:inset-0 md:bg-white md:text-black"
-            : "hidden md:flex md:gap-2 md:justify-between md:items-center bg-white md:h-[50px] md:px-8  md:rounded-full w-[571px] md:gap-6 md:ml-12"
+            : "hidden md:flex md:justify-between md:items-center bg-white md:h-[50px] md:px-8  md:rounded-full w-[571px] md:gap-6 md:ml-12"
         }`}
       >
         <li>
@@ -141,7 +141,7 @@ const Navbar = (props: Props) => {
       </span>
       
       <span className={`${isMenuOpen ? "hidden" : "md:bg-white md:py-3 md:px-6 md:h-[60px] items-center justify-center flex md:-mr-4 rounded-full border"}`}>
-        <Link href={"/#contact"}>Other Services</Link>
+        <Link href={"/#contact"}>Contact Us</Link>
       </span>
     </div>
   );
