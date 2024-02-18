@@ -38,7 +38,7 @@ const HeroSection = (props: Props) => {
             placeholder="Enter your email"
             className="p-3 rounded-3xl text-medium w-[70%] font-CabinetGrotesk outline-none"
           />
-          <button className="text-medium font-CabinetGrotesk justify-center align-center bg-black h-full text-white w-[30%] rounded-3xl">
+          <button className="text-medium font-CabinetGrotesk justify-center align-center bg-black h-full text-white w-[30%] rounded-e-3xl">
             Get a Quote
           </button>
         </div>

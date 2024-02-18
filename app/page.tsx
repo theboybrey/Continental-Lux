@@ -8,6 +8,7 @@ import RegisteringMethods from "./components/RegisteringMethods";
 import SwitchThemeButton from "./components/SwitchThemeButton";
 import NewsletterSection from "./components/NewsletterSection";
 import React, { useState } from "react";
+import PropertyListing from "./components/PropertyListing";
 
 export default function Home() {
   const [isDarkTheme, setIsDarkTheme] = useState(
@@ -23,6 +24,7 @@ export default function Home() {
         <Projects/>
         <EstateBrokerage/>
         <NewsletterSection/>
+        <PropertyListing/>
       </div>
     </main>
   );
