@@ -140,7 +140,7 @@ const Navbar = (props: Props) => {
         <Link href={"/#others"}>Other Services</Link>
       </span>
       
-      <span className={`${isMenuOpen ? "hidden" : "md:bg-white md:py-3 md:px-6 md:h-[60px] items-center justify-center flex md:-mr-4 rounded-full border"}`}>
+      <span className={`${isMenuOpen ? "hidden" : "md:bg-white md:py-3 md:px-6 md:h-[60px] items-center cursor-pointer justify-center flex md:-mr-4 rounded-full border "}`}>
         <Link href={"/#contact"}>Contact Us</Link>
       </span>
     </div>

@@ -2,6 +2,7 @@
 
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 import RegisteringMethods from "./components/RegisteringMethods";
 import SwitchThemeButton from "./components/SwitchThemeButton";
 import React, { useState } from "react";
@@ -17,6 +18,7 @@ export default function Home() {
         <Navbar />
         <HeroSection/>
         <RegisteringMethods/>
+        <Projects/>
       </div>
     </main>
   );
