@@ -1,5 +1,6 @@
 "use client";
 
+import EstateBrokerage from "./components/EstateBrokerage";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -19,6 +20,7 @@ export default function Home() {
         <HeroSection/>
         <RegisteringMethods/>
         <Projects/>
+        <EstateBrokerage/>
       </div>
     </main>
   );

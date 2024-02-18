@@ -17,7 +17,7 @@ const Projects = (props: Props) => {
         {/* Project Listing */}
       <div className="md:mb-8 md:grid md:grid-cols-3 justify-center mx-auto gap-2">
         <ProjectCard src={ProjectImg1} title="Sobaha Villa" reviews={4.5} msg="A luxirious 3D apartment construction to be built in the province of Accra. The heart of Ghana."/>
-        <ProjectCard src={ProjectImg2} title="Trance Aboda" reviews={4.1} msg="Souel's hartwarming 3D apartment yet to be situated in HongKong."/>
+        <ProjectCard src={ProjectImg2} title="Trance Aboda" reviews={4.2} msg="Souel's hartwarming 3D apartment yet to be situated in HongKong."/>
         <ProjectCard src={ProjectImg3} title="Guardian Home" reviews={4.1} msg="The Chinese-like 3D simulation of a native home. With historical instances, the design is one that depicts how the Chinese setting is in medieval times."/>
       </div>
     </div>
