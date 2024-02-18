@@ -21,7 +21,7 @@ const HeroSection = (props: Props) => {
       {/*Caption & Button Section  */}
       <div className="md:justify-center md:px-10 md:items-left md:flex md:flex-col w-[40%] md:left-16 md:h-[617px]  md:absolute">
         <p className="font-CabinetGrotesk mb-2">Welcome to Luxury</p>
-        <h2 className="text-7xl text-wrap font-CabinetGrotesk">
+        <h2 className="text-7xl text-wrap font-CabinetGrotesk font-semibold">
           Manage Your Property
         </h2>
         <p className="text-sm text-gray-500">
