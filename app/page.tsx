@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import RegisteringMethods from "./components/RegisteringMethods";
 import SwitchThemeButton from "./components/SwitchThemeButton";
+import NewsletterSection from "./components/NewsletterSection";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <RegisteringMethods/>
         <Projects/>
         <EstateBrokerage/>
+        <NewsletterSection/>
       </div>
     </main>
   );
